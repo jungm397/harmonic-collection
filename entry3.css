@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400;1,500&display=swap');
+
+.banner{
+	background-color: cornflowerblue;
+    font-family: 'Verdana', monospace;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 1%;
+    color: white;
+	left: 0px;
+    right:0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+    height: 36px
+}
+
+body { 
+    background-color: rgba(100, 149, 237, 0.15);
+}
+
+.wrapper { 
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.page-title {
+    font-family: bd-supper, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: cornflowerblue;
+    margin-top: 75px;
+    font-size: 120px;
+    line-height: 80%;
+    letter-spacing: -7px;
+
+}
+
+.body-text {
+    color: black;
+    font-size: 20px;   
+    font-style: normal; 
+    padding-left: 100px; 
+}
+
+
+span {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.float-left {
+float: left;
+}
+
+.section-01 {
+    color: black;
+    font-size: 20px;   
+    font-family: adobe-caslon-pro, serif;
+    font-weight: 400;
+    font-style: normal; 
+    float: right;
+}
+
+
+.images {
+    border-color: cornflowerblue;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0.75em;
+    margin: 30px;
+}
+
+    .underline { 
+    text-decoration: underline dotted cornflowerblue;
+}
+
+.float-right {
+    margin-left: 500px;
+    margin-top: 70px;
+    padding: 20px;
+    margin-right: initial;
+}
+
+
+
+.section-04 {
+    color: black;
+    font-size: 20px;   
+    font-weight: 400;
+    font-style: normal; 
+    float: left;
+}
+
+div:after {
+    clear:both;
+    content: '';
+    display: block;
+}
+
+.common-title {
+    font-weight: 400;
+    font-style: normal;
+    color: #A5C8D1;
+    font-size: 90px;
+    width: 100vw;
+    margin: 0 auto;
+    letter-spacing: -7px;  
+    position: fixed;
+    bottom: -5px;
+    left: 0px;
+    right: 0px;
+}
+
+.padding { 
+    margin-bottom: 200px;
+}

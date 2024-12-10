@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,400;0,500;1,200;1,400;1,500&display=swap');
+.banner{
+	background-color:black;
+    font-family: 'Verdana', monospace;
+    font-weight: 300;
+    padding-left: 9%;
+    padding-top: 1%;
+    color: white;
+	left: 0px;
+    right:0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+    height: 35px;
+
+}
+section {
+    margin-top: 65px;
+    --columns: 12;
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    gap: 10px
+}
+
+img{
+    height: 105px;
+}
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.grow img{
+    transition: 1s ease;
+    position:absolute;
+    -webkit-filter: opacity(0%);
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease;
+        height:100px;
+        width:100px;
+    }
+        
+    
+
+            .text{
+                padding:25px;
+                z-index:1;
+                }
+                .borderCont{
+                display:grid;
+                border:2px solid black;
+                border-style: dashed;
+                height:103px;
+                width: 103px;
+
+                }
+                .box,.text{
+                grid-column: 1;
+                grid-row: 1;
+                font-family: Arial, Helvetica, sans-serif;
+                color: black;
+                font-size: 80px;
+                font-weight: bolder;
+                text-align: center;
+                padding-top: 0%;
+                }
+                
+                .box{
+                z-index:5;
+                height:105px;
+                width:105px;
+                transition:0.3s ease-in-out all;
+                }
+                
+                .box:hover {
+                position: relative;
+                transform:scale(1.1);
+                }
+                .box:hover:after {
+                content: ' ';
+                background-image:url("homepage/aries.jpg"); 
+                display: block;
+                position: absolute;
+                left: -1px; 
+                top: -1px; 
+                background-size: contain;
+                height: inherit;
+                width: inherit;
+                }
+
+                .box2,.text{
+                    grid-column: 1;
+                    grid-row: 1;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: black;
+                    font-size: 80px;
+                    font-weight: bolder;
+                    text-align: center;
+                    padding-top: 0%;
+                    }
+                    
+                .box2{
+                    z-index:5;
+                    height:105px;
+                    width:105px;
+                    transition:0.3s ease-in-out all;
+                    }
+
+                .box2:hover {
+                    position: relative;
+                    transform:scale(1.1);
+                    }
+                    .box2:hover:after {
+                    content: ' ';
+                    background-image:url("homepage/aquarius.jpg"); 
+                    display: block;
+                    position: absolute;
+                    left: -1px; 
+                    top: -1px; 
+                    background-size: contain;
+                    height: inherit;
+                    width: inherit;
+                    }
+
+                    .box3,.text{
+                        grid-column: 1;
+                        grid-row: 1;
+                        font-family: Arial, Helvetica, sans-serif;
+                        color: black;
+                        font-size: 80px;
+                        font-weight: bolder;
+                        text-align: center;
+                        padding-top: 0%;
+                        }
+                        
+                    .box3{
+                        z-index:5;
+                        height:105px;
+                        width:105px;
+                        transition:0.3s ease-in-out all;
+                        }
+    
+                    .box3:hover {
+                        position: relative;
+                        transform:scale(1.1);
+                        }
+                        .box3:hover:after {
+                        content: ' ';
+                        background-image:url("homepage/trip.jpg"); 
+                        display: block;
+                        position: absolute;
+                        left: -1px;
+                        top: -1px; 
+                        background-size: contain;
+                        height: inherit;
+                        width: inherit;
+                        }
+
+                        .box4,.text{
+                            grid-column: 1;
+                            grid-row: 1;
+                            font-family: Arial, Helvetica, sans-serif;
+                            color: black;
+                            font-size: 80px;
+                            font-weight: bolder;
+                            text-align: center;
+                            padding-top: 0%;
+                            }
+                            
+                        .box4{
+                            z-index:5;
+                            height:105px;
+                            width:105px;
+                            transition:0.3s ease-in-out all;
+                            }
+        
+                        .box4:hover {
+                            position: relative;
+                            transform:scale(1.1);
+                            }
+                            .box4:hover:after {
+                            content: ' ';
+                            background-image:url("index collage/entry4.jpg"); 
+                            display: block;
+                            position: absolute;
+                            left: -1px; 
+                            top: -1px; 
+                            background-size: contain;
+                            height: inherit;
+                            width: inherit;
+                            }
+
+
+            
+                            .box5,.text{
+                                grid-column: 1;
+                                grid-row: 1;
+                                font-family: Arial, Helvetica, sans-serif;
+                                color: black;
+                                font-size: 80px;
+                                font-weight: bolder;
+                                text-align: center;
+                                padding-top: 0%;
+                                
+                                }
+                                
+                            .box5{
+                                z-index:5;
+                                height:105px;
+                                width:105px;
+                                transition:0.3s ease-in-out all;
+                                }
+            
+                            .box5:hover {
+                                position: relative;
+                                transform:scale(1.1);
+                                }
+                                .box5:hover:after {
+                                content: ' ';
+                                background-image:url("index collage/entry5.jpg"); 
+                                display: block;
+                                position: absolute;
+                                left: -1px; 
+                                top: -1px; 
+                                background-size: contain;
+                                height: inherit;
+                                width: inherit;
+                                }
+                               
+                                a:link { text-decoration: none; }
+                                a:visited { text-decoration: none; }
+                                a:hover { text-decoration: none; }
+                                a:active { text-decoration: none; }
+                                     
+                      
+
+@media (min-width: 400px) {
+    section { --columns: 4; 
+    }
+}
+
+@media (min-width: 600px) {
+    section { --columns: 6; 
+    }
+}
+
+@media (min-width: 800px) {
+    section { --columns: 8; 
+    }
+}
+    
+@media (min-width: 1200px) {
+    section { --columns: 12; 
+    }
+}
